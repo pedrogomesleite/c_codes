@@ -6,3 +6,4 @@ Os as codificações atualmente presentes são:
 - Pilha
 - Fila
 - Lista duplamente encadeada
+- Arvore binária (não balanceada)
