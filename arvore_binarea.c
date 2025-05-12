@@ -37,6 +37,7 @@ void printArvore(Node *raiz) {
     if (raiz == NULL) return;
     printArvore(raiz->nextE);
     for (int i = 0; i < raiz->profundidade * 4; i++) printf(" ");
+    if (raiz->profundidade == 0) printf("R:");
     printf("%d\n", raiz->value);
     printArvore(raiz->nextD);
 
